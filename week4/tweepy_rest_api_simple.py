@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
+
 """
-tweepy_rest_api.py
 Created by Robert Dempsey on 02/02/2016.
 
 Example script showing how to use the Tweepy Python library to interact
@@ -17,6 +17,7 @@ import tweepy
 
 
 def main():
+    """Get the 10 latest tweets from your timeline."""
     # Read the config file and get the goodies
     config = configparser.ConfigParser()
     config.read('../config/config.ini')
@@ -34,7 +35,7 @@ def main():
     # Create an API object to use
     api = tweepy.API(auth)
 
-    # Get the 10 latest tweets from your timeline
+    # Get the latest tweets
     public_tweets = api.home_timeline()
     for tweet in public_tweets:
         print(tweet.text + "\n")
