@@ -27,5 +27,6 @@ python -m http.server
 1. Create an application on [http://apps.twitter.com](http://apps.twitter.com)
 2. Copy config/example.ini to config/config.ini
 3. Add your credentials to config/config.ini
-4. Run the sample scripts in the week4 folder
-5. Enjoy the awesome
+4. (Optional) If you're going to save the tweets to a SQLite database, add the full path to the database file to config.ini
+5. Run the sample scripts in the week4 folder
+6. Enjoy the awesome
