@@ -15,7 +15,7 @@ Code files and more for my [web scraping and data mining course](http://robertwd
 python -m http.server
 ```
 
-## Running the Twitter Example Scripts
+## Running the Twitter Example Scripts (Week 4)
 
 ### Prerequisites
 
