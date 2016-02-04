@@ -18,7 +18,7 @@ import forecastio
 
 
 def main():
-    """Look up a user and get the top 20 friends and their statuses."""
+    """Get the current forecast from Forecast.io."""
     # Read the config file and get the goodies
     config = configparser.ConfigParser()
     config.read('../config/config.ini')
