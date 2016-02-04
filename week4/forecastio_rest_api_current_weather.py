@@ -5,7 +5,7 @@
 Created by Robert Dempsey on 02/03/2016.
 
 Example script showing how to use the python-forecastio Python library
-to interact with the Forecast.io REST API.
+to interact with the Forecast.io REST API to get the current weather.
 
 python-forecastio docs: https://github.com/ZeevG/python-forecast.io
 Forecast.io API docs: https://github.com/ZeevG/python-forecast.io

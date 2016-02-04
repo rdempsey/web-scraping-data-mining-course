@@ -13,9 +13,12 @@ Twitter API docs: https://dev.twitter.com/streaming/overview
 """
 
 import configparser
-import tweepy
+
 import sqlite3
+
 from datetime import datetime
+
+import tweepy
 
 
 class MyStreamListener(tweepy.StreamListener):
@@ -34,7 +37,7 @@ class MyStreamListener(tweepy.StreamListener):
         # Connect to the SQLite database
         config = configparser.ConfigParser()
         config.read('../config/config.ini')
-        db = config['Database']['db']
+        db = config['Twitter']['twitter_db']
         conn = sqlite3.connect(db)
         cursor = conn.cursor()
 

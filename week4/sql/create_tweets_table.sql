@@ -1,0 +1,5 @@
+CREATE TABLE `tweets` (
+    `id`    INTEGER PRIMARY KEY AUTOINCREMENT,
+    `tweet` BLOB,
+    `created_at`    TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+)
