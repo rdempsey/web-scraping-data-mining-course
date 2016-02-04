@@ -59,3 +59,5 @@ docs/_build/
 target/
 
 /config/config.ini
+
+/week4/database/tweets_galore.db
