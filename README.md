@@ -5,7 +5,7 @@ Code files and more for my [web scraping and data mining course](http://robertwd
 
 ### Prerequisites
 
-* Python (3.5)
+* Python >= 3.5.1
 
 ### Instructions
 
@@ -15,12 +15,13 @@ Code files and more for my [web scraping and data mining course](http://robertwd
 python -m http.server
 ```
 
+
 ## Running the Twitter Example Scripts (Week 4)
 
 ### Prerequisites
 
-* Python 3.5.1
-* Tweepy 3.5.0
+* Python >= 3.5.1
+* Tweepy >= 3.5.0
 
 ### Instructions
 
@@ -40,8 +41,8 @@ pip install tweepy
 
 ### Prerequisites
 
-* Python 3.5.1
-* python-forecastio 
+* Python >= 3.5.1
+* python-forecastio >= 1.3.4
 
 ### Instructions
 
@@ -53,3 +54,41 @@ pip install python-forecastio
 3. Add your api key to the config file
 4. Run the sample scripts in the week4 folder
 5. Enjoy the awesome!
+
+
+## Simple Web Scraper: PBIC Pricing Scraper (Week 5)
+
+### Prerequisites
+
+* Python >= 3.5.1
+* BeaufifulSoup4 >= 4.4.1
+
+### Instructions
+
+1. Change the file path on line 80 of pbic_pricing_scraper.py or in the Jupyter notebook file
+2. Run the script (or notebook)
+
+
+## Web Spider With Scrapy: govbenefitsspider (Week 5)
+
+### Prerequisites
+
+* Python >= 2.7.11
+* Scrapy >= 1.0.5
+* fake-useragent >= 0.0.8
+* service_identity >= 14.0.0
+
+### Available Spiders
+
+1. benefitstofile: scraper to save the entire HTML response to a file
+2. benefitlist: scraper to grab only the programs from the list page
+3. benefitprogramspider: full on looping spider; will get the details for each program
+
+
+### Instructions
+
+1. Change into the govbenefitsspider/govbenefitsspider directory
+2. Run the following commmands replacing [NAME_OF_SPIDER] with the name of one of the spiders above:
+```
+scrapy crawl [NAME_OF_SPIDER]
+```
