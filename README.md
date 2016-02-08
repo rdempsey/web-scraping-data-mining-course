@@ -46,14 +46,15 @@ pip install tweepy
 
 ### Instructions
 
-1. Install python-forecastio:
+Install python-forecastio:
 ```
 pip install python-forecastio
 ```
-2. Sign up for a developer account at [Forecast.io](https://developer.forecast.io/)
-3. Add your api key to the config file
-4. Run the sample scripts in the week4 folder
-5. Enjoy the awesome!
+
+1. Sign up for a developer account at [Forecast.io](https://developer.forecast.io/)
+2. Add your api key to the config file
+3. Run the sample scripts in the week4 folder
+4. Enjoy the awesome!
 
 
 ## Simple Web Scraper: PBIC Pricing Scraper (Week 5)
@@ -87,13 +88,14 @@ pip install python-forecastio
 
 ### Instructions
 
-1. Install Scrapy and fake-useragent
+Install Scrapy and fake-useragent
 ```
 pip install scrapy
 pip install fake-useragent
 ```
-2. Change into the govbenefitsspider/govbenefitsspider directory
-3. Run the following commmands replacing [NAME_OF_SPIDER] with the name of one of the spiders above:
+
+1. Change into the govbenefitsspider/govbenefitsspider directory
+2. Run the following commmands replacing [NAME_OF_SPIDER] with the name of one of the spiders above:
 ```
 scrapy crawl [NAME_OF_SPIDER]
 ```
