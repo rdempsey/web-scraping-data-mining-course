@@ -87,8 +87,13 @@ pip install python-forecastio
 
 ### Instructions
 
-1. Change into the govbenefitsspider/govbenefitsspider directory
-2. Run the following commmands replacing [NAME_OF_SPIDER] with the name of one of the spiders above:
+1. Install Scrapy and fake-useragent
+```
+pip install scrapy
+pip install fake-useragent
+```
+2. Change into the govbenefitsspider/govbenefitsspider directory
+3. Run the following commmands replacing [NAME_OF_SPIDER] with the name of one of the spiders above:
 ```
 scrapy crawl [NAME_OF_SPIDER]
 ```
